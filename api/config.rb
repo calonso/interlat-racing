@@ -7,7 +7,7 @@ module Interlat
       
       desc "Returns a list of all connected users"
       get '/' do
-        { cars_count: rand(1..5) }
+        { cars_count: rand(2..5) }
       end
 
     end
