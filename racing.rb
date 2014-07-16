@@ -8,7 +8,7 @@ module Interlat
   class Racing < Grape::API
 
     before do
-      header['Access-Control-Allow-Origin'] = '*, null'
+      header['Access-Control-Allow-Origin'] = '*'
       header['Access-Control-Allow-Headers'] = 'Origin, Content-Type, Accept'
       header['Access-Control-Request-Method'] = '*'
     end
