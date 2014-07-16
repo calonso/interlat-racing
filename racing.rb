@@ -9,6 +9,7 @@ module Interlat
 
     before do
       header['Access-Control-Allow-Origin'] = '*'
+      header['Access-Control-Allow-Headers'] = '*'
       header['Access-Control-Request-Method'] = '*'
     end
 
