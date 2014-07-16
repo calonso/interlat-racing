@@ -4,3 +4,6 @@ source "https://rubygems.org"
 ruby '2.1.1'
 
 gem 'grape'
+gem 'grape-swagger'
+gem 'redis'
+gem 'redis-lock'
